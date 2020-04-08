@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color:  hsl(243, 87%, 12%);
+    /* background-color: hsl(240, 75%, 98%); */
+
+}
+
+html{
+    box-sizing: border-box;
+}
+
+p {    
+    line-height: 1.5em;
+}
+
+/* ============================================================ */
+
+.allHeader {
+    display: flex;
+    padding: 2em 1em 2em 2em;
+    align-items: center;
+}
+
+.logo {
+    width: 60%;
+}
+
+.navList ul{
+    list-style-type: none;
+}
+
+.navList a {
+    text-decoration: none;
+}
+
+.navList li {
+    display: inline-block;
+    font-size: 0.67em;
+    padding-right: 1em;
+    color:  hsl(243, 87%, 12%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navList a:hover {
+    color: hsl(244, 34%, 49%);
+}
+
+/* ============================================================ */
+.section-a {
+    padding: 2em;
+}
+
+.firstPicture img {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+.section-a-container h1 {
+    text-align: center;
+    padding-bottom: 1em;
+    line-height: 1.5;
+    font-size: 2em;
+}
+
+.section-a-container p {
+    text-align: center;
+    padding-bottom: 2em;
+    line-height: 1.4;
+}
+
+.section-a-container {
+    text-align: center;
+}
+
+.section-a {
+    padding-bottom: 10em;
+    padding-top: 4em;
+}
+
+/* ============================== */
+
+.section-b {
+    background-color: hsl(240, 75%, 98%);
+    padding-top: 5em;
+    padding-bottom: 4em;
+}
+
+.secondImage img {
+    width: 100%;
+    padding-bottom: 5em;;
+}
+
+.top-rounded-img img {
+    width: 100%;
+    margin-bottom: -1em;
+
+}
+
+.text-profile {
+    padding: 2em;
+}
+
+.section-b-text h2 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.section-b-text p  {
+    text-align: left;
+    font-size: 1.07em;
+    padding-bottom: 2em;
+    color: hsl(0, 0%, 42%);
+}
+
+.section-b-text a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1.5px solid hsl(170, 45%, 43%);
+    padding-bottom: 0.7em;
+}
+
+.section-b-text { 
+    text-align: center;
+}
+
+.quote {
+    background-color: #FFF;
+    margin-top: 4em;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px lightgrey;
+}
+
+.inner-profile {
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.profile img {
+    width: 50%;
+}
+
+.profile {
+    display: flex;
+    padding-top: 2em;
+}
+
+.profile-text p {
+    font-size: 0.7em;;
+}
+
+.profile-text {
+    position: relative;
+    left: -1.8em;
+}
+
+/* ================================= */
+
+.section-c {
+    background-color: hsl(238, 22%, 44%);
+    padding: 2.3em;
+    color: #FFF;
+    text-align: center;
+    /* margin-bottom: 5em; */
+
+}
+
+.email-enter-card h2 {
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.email-enter-card p {
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.email-enter-card input {
+    display: block;
+    padding: 0.7em 3em;
+    border-radius: 4px;
+    border: none;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+::placeholder {
+    color: rgb(190, 190, 190);
+}
+
+.email-enter-card a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: hsl(224, 93%, 58%);
+    padding: 0.5em 4.1em;
+    border-radius: 4px;
+}
+
+.section-b-text img {
+    width: 8%;
+    position: relative;
+    bottom: -0.5em;
+    padding-left: 0.5em;
+}
+
+/* -------------------------------------------- */
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 3em;
+    padding-bottom: 1.6em;
+}
+
+footer img {
+    width: 72%;
+    padding: 1em;
+    padding-bottom: 2.5em;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-bottom: 2em;
+    line-height: 2.2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.phone, .email {
+    color: white;
+}
+
+footer i {
+    color: #FFF;
+}
+
+footer ul i {
+    padding-right: 0.5em;
+}
+
+.media-icons i {
+     padding: 0.3em;
+}
+.list4 {
+    display: flex;
+
+}
+
+.fa-facebook:hover {
+    color: rgb(0, 0, 255);
+}
+
+.fa-twitter:hover {
+    color: rgb(0, 119, 255);
+}
+
+.fa-instagram:hover {
+    color: rgb(214, 15, 154);
+}
+
+@media screen and (min-width: 601px) {
+
+}
+
+@media screen and (min-width:500px) {
+    footer img {
+        display: none;   
+    } 
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .section-b-text img {
+        display: none;
+}
+
+@media only screen and (min-width: 1050px) {
+    .email-enter-card {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-text {
+        width: 45%;
+    }
+    .card-input {
+        position: relative;
+        top: 2em;
+    }
+    .email-enter-card input {
+        width: 78% !important;
+    }
+}
+
+
+@media screen and (min-width:1199px) {
+    .section-b-text h2 {
+        font-size: 2.5em !important;
+    }
+    .section-b-text p {
+        font-size: 1.25em !important;
+        text-align: left !important;
+    }
+    .section-b-text {
+        padding-right: 6em;
+        padding-left: 3em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .text-profile {
+        display: flex;
+        text-align: left;
+    }
+    .flexcard2:nth-of-type(1) {
+        order: 1;
+    }
+    .secondImage {
+        width: 100%;
+    }   
+}
+
+
+@media only screen and (min-width: 720px) {
+    .secondImage img {
+        width: 85%;
+    }
+    .secondImage {
+        text-align: center;
+    }
+    .section-b-text h2 {
+        font-size: 1.75em;
+    }
+    .section-b-text p  {
+        text-align: center;
+        font-size: 1.15em;
+    }
+    .section-a-container p {
+        line-height: 1.4;
+        font-size: 1.2em;
+    }
+    .underQuoteText {
+        font-size: 1.1em;
+    }
+    .profile-text h4 {
+        font-size: 1.15em;;
+    }
+    .email-enter-card input {
+        width: 60%;
+    }
+    .email-enter-card a {
+        padding: 0.5em 7em;
+        border-radius: 4px;
+    
+    }    
+}
+
+@media only screen and (min-width: 500px) {
+    .profile-text p {
+        font-size: 1em;
+    }
+    .profile-text h4 {
+        font-size: 1.05em;;
+    }
+    .profile img {
+        width: 60%;
+    }
+    .email-enter-card h2 {
+        font-size: 1.6em;
+    }
+    .email-enter-card p {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1111px) {
+    .section-a-container {
+        align-items: center;
+        display: flex;
+    }
+    .flexcard:nth-of-type(1) {
+        order: 1;
+    }
+    .section-a-container h1 {
+        text-align: left ;
+    }
+    .section-a-container p {
+        text-align: left ;
+        font-size: 1.2em;
+    }
+    .leftText {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .firstPicture img {
+        width: 80%;
+    }
+    footer {
+        
+    }
+}
+
+@media only screen and (min-width:624px) {
+    .email-input {
+        width: 60%;
+    }
+    .section-a-container h1 {
+        font-size: 2.5em;
+    }    
+    .section-b-text img {
+        width: 5% !important;
+        bottom: -0.7em;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width:493px) {
+    .email-input {
+        padding: 1em 9em;
+    }
+    .input-btn1 {
+        padding: 1em 9.1em;
+    }
+    .section-b-text img {
+        width: 7%;
+        bottom: -0.7em;
+        padding-left: 0.5em;
+    }
+    footer {
+        text-align: center;
+    } 
+    .media-icons li {
+        margin: auto;
+    }
+
+}
+
+
+/* ==========HEADER======== */
+
+@media only screen and (min-width: 380px) {
+    .allHeader {
+        justify-content: space-between;
+    }
+    .logo {
+        width: 64%;
+    }
+    .navList li {
+        font-size: 0.8em;
+        display: inline-block;
+        padding-right: 1em;
+        font-weight: 600;
+    }
+  
+}
+
+@media only screen and (min-width: 600px) {
+    .allHeader {
+        justify-content: space-between;
+    }
+    .logo {
+        width: 75%;
+    }
+    .navList li {
+        font-size: 1.1em;
+        display: inline-block;
+        padding-right: 2em;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .allHeader {
+        justify-content: space-between;
+    }
+    .logo {
+        width: 90%;
+    }
+    .navList li {
+        font-size: 1.2em;
+        display: inline-block;
+        padding-right: 2em;
+        font-weight: 100;
+    }
+}
+
+/* ==========HEADER======== */
